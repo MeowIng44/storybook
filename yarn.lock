@@ -4704,7 +4704,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/mdx@npm:^1.6.22":
+"@mdx-js/loader@npm:^1.0.0":
+  version: 1.6.22
+  resolution: "@mdx-js/loader@npm:1.6.22"
+  dependencies:
+    "@mdx-js/mdx": 1.6.22
+    "@mdx-js/react": 1.6.22
+    loader-utils: 2.0.0
+  checksum: d39f8a3044b8025d5adea20c5f67daca46027e9fd89bc974646402ffb1ed83268081738f793f209cd37f06bfeaddb6b6f8cd61da56fa7a238c7d8da361f43761
+  languageName: node
+  linkType: hard
+
+"@mdx-js/mdx@npm:1.6.22, @mdx-js/mdx@npm:^1.6.22":
   version: 1.6.22
   resolution: "@mdx-js/mdx@npm:1.6.22"
   dependencies:
@@ -4756,7 +4767,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/react@npm:^1.6.22":
+"@mdx-js/react@npm:1.6.22, @mdx-js/react@npm:^1.6.22":
   version: 1.6.22
   resolution: "@mdx-js/react@npm:1.6.22"
   peerDependencies:
@@ -7917,6 +7928,8 @@ __metadata:
     "@babel/preset-env": ^7.12.11
     "@babel/preset-react": ^7.12.10
     "@babel/preset-typescript": ^7.12.7
+    "@mdx-js/loader": ^1.0.0
+    "@storybook/addon-docs": 6.5.0-beta.1
     "@storybook/addon-essentials": 6.5.0-beta.1
     "@storybook/components": 6.5.0-beta.1
     "@storybook/csf": 0.0.2--canary.87bc651.0
